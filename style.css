@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Teko|Ultra&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
@@ -56,7 +59,7 @@ body {
   height: 50px;
   background: #0d0b0b;
   z-index: 2;
-  border-radius: 50%;
+  border-radius: 16px;
   cursor: pointer;
 }
 
@@ -99,6 +102,45 @@ body.activeNav .ham-btn span:nth-child(3) {
 
 body.activeNav .ham-btn span:nth-child(2) {
   display: none;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 80px;
+  
+}
+li {
+  font-size: 18px;
+  /* font-family: 'Montserrat'; */
+}
+
+p {
+  font-family: 'teko';
+  font-size: 35px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.quote::before {
+  position: relative;
+  top: 20px;
+  content: open-quote;
+  color: silver;
+  font-size: 90px;
+ 
+}
+
+.quote::after {
+  position: relative;
+  top: 20px;
+  content: close-quote;
+  font-size: 90px;
+  color: silver;
+}
+
+.ae {
+  /* line-height: -10px; */
+  text-align: right;
 }
 
 
